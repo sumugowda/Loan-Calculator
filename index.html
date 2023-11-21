@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <form action="" id="loancalc">
+            <div class="head">
+                <h2>Simple Interest</h2>
+            </div>
+            <div class="amt">
+                <label for="amount">Loan Amount :<br></label>
+                <input type="number" name="amount" id="amount" placeholder="Amount in rupees" required>
+            </div>
+            <div class="rate">
+                <label for="interest">Interest Rate (%) :<br></label>
+                <input type="text" name="interest" id="interest" placeholder="Rate of interest " required>
+            </div>
+            <div class="term">
+                <label for="tenure">Loan Term(in years) :<br></label>
+                <input type="text" name="tenure" id="tenure" placeholder="Loan tenure" required>
+            </div>
+            <div class="submit">
+                 <button type="submit">Calculate</button>
+            </div>
+            <div class="result" id="result"></div>
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
